@@ -9,8 +9,8 @@ export default async function Home() {
   // console.log(res);
   return (
     <main>
-      <h1 className='' >Hello Nextjs 13 🔥</h1>
-      <div className="grid gap-16 grid-cols-fluid" >
+      <h1 className='antialiased text-3xl pb-12 text-center' >Made by Vikash Khedar with ❤️ from India</h1>
+      <div className="grid gap-2 grid-cols-fluid" >
         {res.results.map((movie: any)=>(
           // eslint-disable-next-line react/jsx-key
           <Movie
